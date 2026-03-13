@@ -45,7 +45,7 @@ export default function RubricsInput({ value, onChange }: Props) {
         placeholder={`[\n  {\n    "id": 1,\n    "description": "The agent provides...",\n    "points": 5,\n    "category": "task completion",\n    "priority": "must have",\n    "is_positive": true\n  }\n]`}
         spellCheck={false}
         className={`
-          w-full h-[190px] resize-none rounded-2xl border-2 p-4
+          w-full h-[210px] resize-none rounded-2xl border-2 p-4
           font-mono text-xs leading-relaxed
           bg-white dark:bg-gray-800
           text-gray-800 dark:text-gray-200
